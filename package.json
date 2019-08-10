@@ -1,0 +1,31 @@
+{
+    "name": "modernwarfarerpc",
+    "description": "Call of Duty: Modern Warfare Discord Rich Presence spoofer.",
+    "version": "2.0.0",
+    "main": "index.js",
+    "author": "EthanC",
+    "license": "MIT",
+    "postinstall": "electron-builder install-app-deps",
+    "scripts": {
+        "start": "electron .",
+        "dist": "electron-builder"
+    },
+    "build": {
+        "appId": "com.ethanc.modernwarfarerpc",
+        "productName": "Modern Warfare RPC",
+        "win": {
+            "target": "nsis",
+            "icon": "./assets/icon.ico"
+        },
+        "directories": {
+            "output": "./build/release/${os}${arch}"
+        }
+    },
+    "devDependencies": {
+        "electron": "^6.0.1",
+        "electron-builder": "^21.2.0"
+    },
+    "dependencies": {
+        "discord-rich-presence": "^0.0.8"
+    }
+}
