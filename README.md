@@ -20,3 +20,7 @@ You must be using the [Windows Client of Discord](https://discordapp.com/downloa
 ## Customization
 
 While not recommended, you could [create your own Rich Presence application](https://discordapp.com/developers/docs/rich-presence/how-to), then modify `index.js` and `gameData.js` to allow for custom maps, modes, and images to be used.
+
+## Discord
+
+While you're at it, come hang out in the [Call of Duty Discord Server](https://discord.gg/callofduty)!
